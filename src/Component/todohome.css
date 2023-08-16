@@ -1,0 +1,14 @@
+.addandall{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 1.2rem;
+    line-height: inherit;
+    background-color: rgb(204,205,222);
+    padding: 5px;
+    border-radius: 3px;
+}

@@ -1,0 +1,117 @@
+.todolist{
+
+    margin-top: 25px;
+    padding-top: 25px;
+    width: 60%;
+    max-height: max-content  ;
+    background-color: rgb(236,237,246);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .todolist{
+
+        margin-top: 25px;
+        padding-top: 25px;
+        width: 100%;
+        max-height: max-content  ;
+        background-color: rgb(236,237,246);
+        border: 1px solid transparent;
+        border-radius: 7px;
+        
+    }
+  }
+/* .todolist {
+    margin-top: 25px;
+    padding-top: 25px;
+    width: 100%;
+    max-height: max-content;
+    background-color: rgb(236,237,246);
+    border: 1px solid transparent;
+    border-radius: 7px;
+} */
+.todo {
+    list-style: none;
+    
+}
+.todo li{
+    
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    background-color: #ffff;
+}
+span{
+    padding-left: 6px;
+}
+.todo #ck{
+    height: 15px;
+  width: 15px;
+  background-color: #eee !important;
+}
+.todo{
+    
+    box-sizing: border-box;
+    
+    width: 90%;
+    min-height: max-content;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+/* .container{
+    
+    border-radius: 40px;
+} */
+.time{
+    font-size: 0.8rem;
+}
+/* .todo .completetask{
+ text-decoration: line-through;
+}
+.todo .notcomplete{
+    text-decoration: none;
+   } */
+   
+li{
+        height: 60px;
+        align-items: center;
+        background: #ffff;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+    
+}
+.innerdiv {
+    padding: 5px;
+}
+
+.startdiv{
+ 
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-start;
+    
+}
+.enddiv{
+    padding: 11px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    background-color: #FA9E57;
+}
+
+
+/* .edit{
+    padding-top: 0px;
+    float:right;  
+} */

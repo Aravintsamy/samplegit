@@ -1,0 +1,35 @@
+*{
+  font-family: Roboto, sans-serif;
+}
+.App {
+  padding-top: 90px;
+  text-align: center;
+  display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.headline{
+  color:rgb(100,102,129);
+  font-weight: 600;
+}
+.headline2{
+  color:rgb(100,102,129);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.editbutton{
+  border: none;
+  background: none  !important;
+  color: black !important;
+  box-shadow: none !important;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root{
+  background-color: rgb(100,118,244);
+}
+
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-zcbmsk-MuiButtonBase-root-MuiButton-root {
+  background-color: rgb(100,118,244);
+}

@@ -1,0 +1,51 @@
+.epopup input[type=text]{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ffff;
+    border: 1px solid #979595;
+    outline:none;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.epopup input[type=text]:hover{
+    border:1px solid rgb(85, 84, 84);
+}
+.epopup input[type=submit]{
+    padding: 14px;
+    background-color: rgba(74,0,128,0.6);
+    color:limegreen;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.eouter{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.epopup{
+    text-align: left !important ;
+    align-items: start;
+    padding: 20px 30px;
+    margin: auto;
+    background-color: rgb(236,237,246);
+    border-radius: 10px;
+    font-size: 1.1vw;
+    width: 30%;
+    height: 45%;
+    box-sizing: border-box;
+    margin-top: 260px;
+}
+.epopup select {
+    width: 100% !important;
+    height: 2rem;
+}
+
+
